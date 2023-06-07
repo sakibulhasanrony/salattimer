@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".salatditails">
+
+    <LinearLayout
+        android:layout_width="413dp"
+        android:layout_height="379dp"
+        android:background="@drawable/isha"
+        android:id="@+id/image"
+        android:orientation="vertical"
+        android:scaleType="fitXY">
+
+        <Button
+            android:id="@+id/profile"
+            android:layout_width="65dp"
+            android:layout_height="90dp"
+            android:layout_marginLeft="330dp"
+            android:background="@drawable/who"
+            android:visibility="visible"
+            tools:visibility="visible" />
+
+        <TextClock
+            android:id="@+id/Clock"
+            android:layout_width="174dp"
+            android:layout_height="74dp"
+            android:layout_marginTop="50dp"
+            android:format12Hour="hh:mm"
+            android:gravity="center"
+            android:text="00:00"
+            android:textColor="@color/white"
+            android:textSize="50dp"
+            android:visibility="visible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.109"
+            tools:ignore="MissingConstraints" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="290dp"
+            android:layout_height="61dp"
+            android:layout_marginTop="10dp"
+            android:text="Fajar"
+            android:textSize="40dp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="61dp"
+            android:text="00:00"
+            android:textSize="40dp"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:id="@+id/text1"
+            android:layout_marginLeft="15dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="290dp"
+            android:layout_height="61dp"
+            android:layout_marginTop="10dp"
+            android:text="Dhuhr"
+            android:textSize="40dp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="61dp"
+            android:text="00:00"
+            android:textSize="40dp"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:id="@+id/text2"
+            android:layout_marginLeft="15dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="290dp"
+            android:layout_height="61dp"
+            android:layout_marginTop="10dp"
+            android:text="Asar"
+            android:textSize="40dp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="61dp"
+            android:text="00:00"
+            android:textSize="40dp"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:id="@+id/text3"
+            android:layout_marginLeft="15dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="290dp"
+            android:layout_height="61dp"
+            android:layout_marginTop="10dp"
+            android:text="Maghrib"
+            android:textSize="40dp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="61dp"
+            android:text="00:00"
+            android:textSize="40dp"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:id="@+id/text4"
+            android:layout_marginLeft="15dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="290dp"
+            android:layout_height="61dp"
+            android:layout_marginTop="10dp"
+            android:text="Isha"
+            android:textSize="40dp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="61dp"
+            android:text="00:00"
+            android:textSize="40dp"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:id="@+id/text5"
+            android:layout_marginLeft="15dp"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/compass"
+        android:layout_width="407dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/campassedit"
+        android:text="Compass"
+        android:textColor="@color/white"
+        android:textSize="8pt"
+        android:textStyle="bold" />
+
+
+</LinearLayout>

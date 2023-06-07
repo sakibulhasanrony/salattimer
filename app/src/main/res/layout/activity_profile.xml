@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    android:background="@drawable/m1"
+    android:alpha=".9"
+    tools:context=".profile">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Profile"
+        android:textColor="#373131"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="50dp"
+        android:layout_marginTop="50dp"/>
+    <EditText
+        android:id="@+id/email1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#8919A8"
+        android:textSize="20sp"
+        android:textColorHint="#8919A8"
+        android:hint="Email address"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:id="@+id/username1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="#8919A8"
+        android:textColor="#350419"
+        android:hint="User Name"
+        android:textSize="20sp"
+        android:layout_marginTop="30dp"/>
+    <EditText
+        android:id="@+id/city1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="#8919A8"
+        android:textSize="20sp"
+        android:textColor="#350419"
+        android:hint="City"
+        android:layout_marginTop="30dp"/>
+
+    <EditText
+        android:id="@+id/password1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="#8919A8"
+        android:textColor="#350419"
+        android:hint="Password"
+        android:textSize="20sp"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/username"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_box"
+        android:text="delete"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"
+        android:textSize="6pt"
+        android:onClick="delet_data"
+        android:layout_below="@+id/btnsignup"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_box"
+        android:text="update data"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold"
+        android:textSize="6pt"
+        android:onClick="update_data"
+        android:layout_below="@+id/btnsignup"/>
+
+</LinearLayout>
